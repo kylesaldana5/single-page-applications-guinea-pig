@@ -28,5 +28,35 @@ h1Target.addEventListener("mouseout", () =>{
 let inputTarget = document.getElementById("keypress-input")
 // event listner for mirror text
 inputTarget.addEventListener("input", () =>{
-    print(event.target.vaule);
+    print(target.innerHTML = inputTarget.value);
 });
+
+// target buttons
+let addColor = document.getElementById("add-color");
+let makeLarge = document.getElementById("make-large");
+let addBorder = document.getElementById("add-border");
+let addRounding = document.getElementById("add-rounding");
+
+// target area the buttons are changing
+let guineaPig = document.getElementById("guinea-pig");
+
+// add event lisnters to buttons and toggle
+
+addColor.addEventListener("click", () =>{
+    guineaPig.classList.toggle("blue");
+});
+
+makeLarge.addEventListener("click", () =>{
+    guineaPig.classList.toggle("hulkify");
+});
+
+addBorder.addEventListener("click", () => {
+    guineaPig.classList.toggle("capture");
+});
+
+addRounding.addEventListener("click", () => {
+    guineaPig.classList.toggle("rounded");
+})
+
+
+

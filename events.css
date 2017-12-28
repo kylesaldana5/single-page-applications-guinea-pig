@@ -1,0 +1,29 @@
+#guinea-pig {
+    display: inline-block;
+    margin: .5em auto;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.hulkify {
+    font-size: 2em;
+}
+
+.capture {
+    border: 1.5em solid tomato;
+}
+
+.rounded {
+    border-radius: 5em;
+}
+
+.article-section:first-child{
+    font-weight: bold;
+}
+
+.article-section:last-child {
+    font-weight: bold; 
+    
+}
